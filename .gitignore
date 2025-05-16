@@ -1,0 +1,42 @@
+# Ignore all the models
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.json
+*.csv
+*.txt
+*.log
+*.npz
+
+
+
+# Ignore all the logs
+logs/*
+
+# Ignore all the results
+results/*
+
+# Ignore all the datasets
+datasets/*
+
+# Ignore all the text files
+*.txt
+
+# Ignore all the csv files
+*.csv
+
+# Ignore all output pdb files
+*.pdb
+*.trb
+*.pdb.gz
+
+
+
+# Ignore apptainer images
+*.sif
+*.simg
+*.img
+*.tar
+*.tar.gz
+*.tar.bz2

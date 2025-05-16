@@ -1,0 +1,27 @@
+af_params_dir: "/pasteur/appa/scratch/dvu/github/DeltaGAgileDesign/params"
+model_path: "v_48_020"
+mpnn_weights: "soluble" #use the model trained exclusively on soluble proteins
+relax_pdb: "pyrosetta" #relax the pdb with pyrosetta or amber (amber is faster, but pyrosetta is more accurate in finding the optimal packing)
+dssp_path: "/pasteur/appa/scratch/dvu/github/SLIMshot/utils/binary/dssp"
+dalphaball_path: "/pasteur/appa/scratch/dvu/github/SLIMshot/utils/binary/DAlphaBall.gcc"
+
+
+
+sampling_temp_mpnn: 0.1
+num_seqs: 5 #number of sequences to generate using proteinMPNN for each backbone
+omit_AAs: "C" #omit AAs in the design
+present_AAs: "Y, W" #present AAs in the design: e.q W and Y for A280 detection, W is quite rare
+force_reject_AA: True
+model_path: "v_48_020"
+mpnn_weights: "soluble" #use the model trained exclusively on soluble proteins
+#AF2 parameters
+models_binder: [0]
+num_recycles: 8
+print_alphafold_stats: True
+
+ptm_threshold: 0.0
+
+
+
+
+
