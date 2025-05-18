@@ -1,0 +1,6 @@
+- inference.output_prefix=pdb_outputs/covid_spike
+- inference.input_pdb=input_pdbs/7zjl.pdb
+- contigmap.contigs=[k1-216/0 l1-223/0 20-50/A311-374/20-50]
+- contigmap.length=70-120
+- inference.num_designs=100
+- inference.ckpt_override_path=../../models/Complex_base_ckpt.pt

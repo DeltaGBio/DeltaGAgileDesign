@@ -9,6 +9,8 @@
 *.log
 *.npz
 
+*.err
+*.out
 
 
 # Ignore all the logs

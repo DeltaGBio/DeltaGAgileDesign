@@ -1,0 +1,6 @@
+- inference.output_prefix=pdb_outputs_domain/EGFR_domain
+- inference.input_pdb=input_pdbs/4uv7.pdb
+- contigmap.contigs=[50-100/A311-374/50-100]
+- contigmap.length=100-200
+- inference.num_designs=100
+- inference.ckpt_override_path=../../models/Complex_base_ckpt.pt
